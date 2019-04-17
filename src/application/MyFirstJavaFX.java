@@ -74,7 +74,7 @@ public class MyFirstJavaFX extends Application{
 		buttonResult.setText("Calculer");
 		buttonResult.setMaxWidth(Double.MAX_VALUE);
 		buttonResult.setOnAction( e -> {
-			
+
 			buttonResult.setText("Calculer");
 
 			int col;
@@ -83,10 +83,10 @@ public class MyFirstJavaFX extends Application{
 			for (col = 0; col < 4; col++) {
 				for (row = 1; row < 5; row++) {
 					try {
-					int one = Integer.valueOf(((TextField)getNodeFromGridPane(root, col, row)).getText());
-					int two = Integer.valueOf(((TextField)getNodeFromGridPane(root, col, row + 5)).getText());
-					int three = one + two;
-					((Label)getNodeFromGridPane(root, col, row + 10)).setText(String.valueOf(three));
+						int one = Integer.valueOf(((TextField)getNodeFromGridPane(root, col, row)).getText());
+						int two = Integer.valueOf(((TextField)getNodeFromGridPane(root, col, row + 5)).getText());
+						int three = one + two;
+						((Label)getNodeFromGridPane(root, col, row + 10)).setText(String.valueOf(three));
 					} catch (Exception exception) {
 						buttonResult.setText("Erreur");
 					}
