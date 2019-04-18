@@ -1,3 +1,3 @@
 ORT -- https://www.ort-france.fr/
 
-Working example of an "Hello World !" (JavaFX)
+Working example of GridPane and how depressing it can be (JavaFX)
