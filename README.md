@@ -1,2 +1,3 @@
-# -ORT--TP1
-TP ORT
+ORT -- https://www.ort-france.fr/
+
+Working example of an "Hello World !" (JavaFX)
